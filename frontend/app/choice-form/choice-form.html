@@ -1,0 +1,18 @@
+
+
+<form name="vm.choiceForm" ng-submit="vm.onSubmit(vm.choice)">
+
+        <div class="form-inline">
+
+            <input id="choice" name="choice" class="form-control" ng-model="vm.choice" type="text" placeholder="Enter choice....." autocomplete="off" required> </input>
+            <button type="submit" class="btn btn-primary">
+                <span class="glyphicon glyphicon-ok"></span>
+
+            </button>
+            <button type="reset" class="btn btn-default" ng-click="vm.onReset()">
+                <span class="glyphicon glyphicon-refresh"></span>
+
+            </button>
+        </div>
+
+</form>
